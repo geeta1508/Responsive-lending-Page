@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="navbar">
+    <a href="#" class="nav-logo">
+        <img src="logo2.jpg" alt="Logo">
+        <h2 class="logo-text">Coffee Shop</h2>
+    </a>
+
+    <div class="navlinks-container">
+        
+            <button><a href="#home" class="navlinks">Home</a></button>
+            <button><a href="#about" class="navlinks">About</a></button>
+            <button><a href="#menusection" class="navlinks">Products</a></button>
+            <button><a href="#contact" class="navlinks">Contact</a></button>
+  
+        <div class="hamburger" onclick="toggleMenu()">
+            
+        </div>
+    </div>
+</div>
+
+<div id="home" class="navcontent">
+    <div class="home-image">
+        <div class="home-text">
+            <h2>Start your day</h2>
+            <h2>with Coffe</h2>
+            <p>Explore and learn about our services, and get in touch with us!</p>
+            <button class="btn">Order now</button>
+        </div>
+    </div>
+ 
+</div>
+  
+   <div id="about" class="navcontent">
+    <div class="About-container">
+        <!-- Image on the left -->
+        <div class="About-image">
+            <img src="cup coffe.jpg" alt="Coffee Image">
+        </div>
+        
+        
+        <div class="About-text">
+            <h3>About Us</h3>
+            <p>At Coffee House in India, Berndorf, Germany, we pride ourselves on being a go-to destination for coffee
+            lovers and conversation seekers alike. We're dedicated to providing an exceptional coffee experience in a 
+            cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort.
+           
+            </p>
+            <br>
+            <p class="icon"><i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook-f" style="color:rgb(103, 103, 199)"></i>
+        </p>
+           
+        </div>
+    </div>
+</div>
+
+<section  id="menusection" class="menu-section">
+    <h2>Our Menu</h2>
+    <p>Explore our delicious selection of handcrafted coffee and treats.</p>
+
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="espresso coffe.jpeg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>A classic shot of rich, bold coffee.</p>
+            <span class="price">90 Rupee</span>
+        </div>
+        <div class="menu-item">
+            <img src="cappuccino-in-clear-cup.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Rich espresso with steamed milk and foam.</p>
+            <span class="price">220 Rupee</span>
+        </div>
+        <div class="menu-item">
+            <img src="latte-coffe.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>Espresso with creamy steamed milk.</p>
+            <span class="price">120 Rupee</span>
+        </div>
+        <div class="menu-item">
+            <img src="Mocha-Coffee.jpg" alt="Mocha">
+            <h3>Mocha</h3>
+            <p>A delicious blend of chocolate and espresso.</p>
+            <span class="price">200 Rupee</span>
+        </div>
+        <div class="menu-item">
+            <img src="plastic cup.jpg" alt="Iced Coffee">
+            <h3>Iced Coffee</h3>
+            <p>Freshly brewed coffee served over ice.</p>
+            <span class="price">150 Rupee</span>
+        </div>
+        <div class="menu-item">
+            <img src="blueberry-coffee-muffins-9.jpg" alt="Blueberry Muffin">
+            <h3>Blueberry Muffin</h3>
+            <p>A soft muffin filled with juicy blueberries.</p>
+            <span class="price">350 Rupee</span>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="Contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Feel free to reach out to us through the form below or visit us at our coffee shop.</p>
+    
+    <div class="contact-container">
+        <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <h3>Visit Us</h3>
+            <p><strong>Address:</strong> 123 Coffee house, Java City</p>
+            <p><strong>Phone:</strong> +123 456 7890</p>
+            <p><strong>Email:</strong> hello@coffeehoused.com</p>
+            <p><strong>Hours:</strong> Mon-Sun: 8 AM - 8 PM</p>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <p>© 2025 Coffee House. All rights reserved.</p>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
+
+
+
